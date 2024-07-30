@@ -1,0 +1,50 @@
+---
+layout: post
+title:  "Git 1.3 Cloud Computing @ Signify Health"
+date:   2024-07-18 18:30:00 +0100
+categories: past-events
+
+---
+![GIT 1.3: Cloud Computing @ Signify Health](/assets/1.3/poster.png)
+
+This [meetup](https://www.meetup.com/galway-information-technology/events/301885482/) was held on Thursday 18th of July at [Signify Health](https://www.google.com/maps/place/Signify+Health+Ireland/@53.2714904,-9.0513579,17z/data=!4m6!3m5!1s0x485b979ce711f47b:0x5f0ebe361d14fcea!8m2!3d53.2714904!4d-9.048783!16s%2Fg%2F11ty98vszs?entry=ttu) in Bonham Quay.
+
+
+The event was sponsored, hosted and catered by [Singify Health](https://www.signifyhealth.com/ireland). A huge thank you to Jeniffer and the rest of the team. It was great to meet all of you, tour your awesome new offices at Bonham Quay and learn about some cool new tech.
+
+
+
+We had four speakers with short talks on the topic of cloud computing:
+
+- **"Domain Driven Design with Microservices in the Cloud"** by John Lynch
+- **"Effortless Development with Google Project IDX"** by Tom Prior
+- **"Secure Cloud: Safeguarding your Data"** by Michael Dunne
+- **"IAM: Inane Access Management"** by Liam Krewer
+
+
+## Assetts
+
+- [Slides with references](/assets/1.3/presentation.pptx)
+
+## Photos 
+
+<!-- https://nanogallery2.nanostudio.org/ -->
+<div id="nanogallery2" data-nanogallery2='{
+	"itemsBaseURL": "/assets/1.3/photos/",
+    "thumbnailHeight": 240,
+    "thumbnailWidth":  "auto"   
+  }'>
+  {% for i in (1..45) %}
+    <a href="{{i}}.jpg" data-ngthumb="{{i}}.jpg"></a>
+  {% endfor %}
+</div>
+
+
+<script type="text/javascript">
+    lightGallery(document.getElementById('lightgallery'), {
+        plugins: [lgZoom, lgThumbnail],
+        licenseKey: 'your_license_key',
+        speed: 500,
+        // ... other settings
+    });
+</script>
