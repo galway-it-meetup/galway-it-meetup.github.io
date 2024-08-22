@@ -38,13 +38,3 @@ We had four speakers with short talks on the topic of cloud computing:
     <a href="{{i}}.jpg" data-ngthumb="{{i}}.jpg"></a>
   {% endfor %}
 </div>
-
-
-<script type="text/javascript">
-    lightGallery(document.getElementById('lightgallery'), {
-        plugins: [lgZoom, lgThumbnail],
-        licenseKey: 'your_license_key',
-        speed: 500,
-        // ... other settings
-    });
-</script>
