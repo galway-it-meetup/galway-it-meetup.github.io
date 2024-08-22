@@ -1,0 +1,46 @@
+---
+layout: post
+title:  "GIT 1.4: Cloud Computing: Work Smarter, Not Harder"
+date:   2024-08-21 18:00:00 +0100
+categories: past-events
+
+---
+![GIT 1.4: Cloud Computing: Work Smarter, Not Harder](/assets/1.4/poster.png)
+
+This [meetup](https://www.meetup.com/galway-information-technology/events/302439331/) was held on Wednesday 21st of August at the [PorterShed](https://www.google.com/maps/place/PorterShed/@53.2734788,-9.0534656,17z/data=!3m1!4b1!4m6!3m5!1s0x485b96e5c4af853f:0x3535a8060a8c257d!8m2!3d53.2734788!4d-9.0534656!16s%2Fg%2F11c0xpjshy?entry=ttu) on Market Street.
+
+
+The event was sponsored by [Liberty IT](https://www.liberty-it.ie/careers/career-opportunities) and the [PorterShed](https://portershed.com/). A huge thank you to Ben, Darren and Padraig of Liberty IT, Mary and the team from the PorterShed as well as the speakers Graeme, Saurab and Nino.
+
+
+We had three speakers who gave two excellent talks on the topics of cloud computing:
+
+- **"Transforming CX: Building Quality Experiences with AI"** by [Graeme Brown](https://www.linkedin.com/in/graeme-richard-james-brown/) & [Saurab Chandel](https://www.linkedin.com/in/saurab-chandel-6b16a91a/)
+- **"Code generation (Automatic Programming)"** by [Nino Musanovic](https://www.linkedin.com/in/ninomusanovic/)
+
+
+It's wonderful to see such a great turnout of enthusiastic people. It was great to meet new members and some familiar faces too. Looking forward to the next event already.
+
+## Assets
+
+Here are the presentations from the meetup, including some useful references at the end if you want to learn more about any of the topics discussed.
+
+- [Introduction Slides](/assets/1.4/intro.pptx)
+- [Transforming CX Slides](/assets/1.4/transforming_cx.pdf)
+- [Code Generation Slides](/assets/1.4/code_generation.pptx)
+
+## Photos 
+
+Thank you to Johnny for sending on the photos:
+
+
+<!-- https://nanogallery2.nanostudio.org/ -->
+<div id="nanogallery2" data-nanogallery2='{
+	"itemsBaseURL": "/assets/1.4/photos/",
+    "thumbnailHeight": 240,
+    "thumbnailWidth":  "auto"   
+  }'>
+  {% for i in (1..19) %}
+    <a href="{{i}}.jpeg" data-ngthumb="{{i}}.jpeg"></a>
+  {% endfor %}
+</div>
