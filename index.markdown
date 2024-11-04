@@ -4,17 +4,27 @@ layout: home
 title: Events
 ---
 
-## Upcoming Events
+## Galway Information Technology Group
 
 ![GIT 1.5: Placeholder](/assets/placeholder_poster.png)
 
-Our next event is still a work in progress right now, but it should be going ahead in the middle of September.  
 
-If you would like to be notified once the event is ready, you can join our group on [Meetup](https://www.meetup.com/galway-information-technology) or [LinkedIn](https://www.linkedin.com/groups/14314350/).
+Welcome to the Galway IT Meetup Group. 
 
-If you want to get involved, get in contact with [Liam](https://www.linkedin.com/in/liamkrewer/).
 <br/>
+We endeavour to meet once a month in Galway to learn, share, network and socialize. Galway has a vibrant and diverse community of tech students, workers, enthusiasts and companies. This group's goal is to provide a place for anyone interested in IT (software, hardware, development, research etc.) to come together and share ideas.
+
 <br/>
+We will host and organise any event which our members are interested in. See the list of past events below for some examples, but feel free to suggest something completely different. For 2025 we'd like to branch out into computer hardware and 3D Printing.
+
+<br/>
+If you'd like to join us, you can join our: 
+- [Meetup Group](https://www.meetup.com/galway-information-technology)
+- [LinkedIn Group](https://www.linkedin.com/groups/14314350/)
+- [Discord Server](https://discord.gg/6BV8A8DHbB)
+
+If you want to speak / suggest a topic / get involved, please reach out on the above platforms or contact [Liam](https://www.linkedin.com/in/liamkrewer/) directly.
+
 <br/>
 
 ## Past Events
