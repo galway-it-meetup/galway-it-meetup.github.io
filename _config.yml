@@ -36,6 +36,8 @@ plugins:
   # - jekyll-feed
   - jekyll-remote-theme
 
+# include posts with a future date
+future: true
 
 minima:
   skin: dark

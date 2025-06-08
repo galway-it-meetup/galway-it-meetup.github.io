@@ -42,5 +42,36 @@ If you want to speak / suggest a topic / get involved, please reach out on the a
 
 <br/>
 
+
+{% if site.categories.upcoming_events and site.categories.upcoming_events.size != 0 %}
+## Upcoming Events
+<ul class="post-list">
+{% for post in site.categories.upcoming_events %}
+{% if post.url %}
+<li>
+    <span class="post-meta">{{post.date | date: "%A %-d %B %Y @ %H:%M"}}</span>
+    <h3>
+        <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
+    </h3>
+</li>
+{% endif %}
+{% endfor %}
+</ul>
+<br/>
+{% endif %}
+
 ## Past Events
 
+<ul class="post-list">
+{% for post in site.categories.past_events %}
+{% if post.url %}
+<li>
+    <span class="post-meta">{{post.date | date: "%A %-d %B %Y @ %H:%M"}}</span>
+    <h3>
+        <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
+    </h3>
+</li>
+{% endif %}
+{% endfor %}
+</ul>
+<br/>
