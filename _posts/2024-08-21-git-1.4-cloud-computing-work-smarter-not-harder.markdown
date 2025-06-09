@@ -3,7 +3,7 @@ layout: post
 title:  "GIT 1.4: Cloud Computing: Work Smarter, Not Harder"
 date:   2024-08-21 18:00:00 +0100
 categories: past_events
-
+tags: [cloud computing, meetup, PorterShed, AI, code-generation, past-events]
 ---
 ![GIT 1.4: Cloud Computing: Work Smarter, Not Harder](/assets/1.4/poster.png)
 
