@@ -2,7 +2,7 @@
 layout: post
 title:  "Git 1.3 Cloud Computing @ Signify Health"
 date:   2024-07-18 18:30:00 +0100
-categories: past-events
+categories: past_events
 
 ---
 ![GIT 1.3: Cloud Computing @ Signify Health](/assets/1.3/poster.png)
