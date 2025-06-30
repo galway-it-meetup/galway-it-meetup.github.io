@@ -1,0 +1,37 @@
+alias: Tomorrow Weather Check
+description: Sends a notification if a web scrape sensor indicates a weather alert for tomorrow, ensuring household members are informed of any weather warnings.
+triggers:
+  - entity_id:
+      - sensor.tomorrow_web_scrape_color
+    to: null
+    enabled: true
+    trigger: state
+conditions:
+  - condition: template
+    value_template: "{{ trigger.to_state.state != 'Currently no warnings in operation.' }}"
+  - condition: template
+    value_template: "{{ trigger.to_state.state != 'unavailable' }}"
+  - condition: template
+    value_template: "{{ trigger.to_state.state != null }}"
+  - condition: template
+    value_template: "{{ trigger.to_state.state != Gray }}"
+  - condition: template
+    value_template: "{{ trigger.to_state.state != 'Gray' }}"
+actions:
+  - variables:
+      msg: >-
+        A {{ trigger.to_state.state }} Weather Alert for Tomorrow Has Been
+        Issued!
+  - data:
+      title: Weather Alert Tomorrow!
+      message: "{{ msg }}"
+      data:
+        tag: weather_alert
+    action: notify.mobile_app_phone
+  - data:
+      title: Weather Alert Tomorrow!
+      message: "{{ msg }}"
+      data:
+        tag: weather_alert
+    action: notify.mobile_app_phone_2
+mode: single

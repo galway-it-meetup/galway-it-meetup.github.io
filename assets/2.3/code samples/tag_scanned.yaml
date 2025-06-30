@@ -1,0 +1,22 @@
+alias: Baked beans tag is scanned
+description: "Adds Baked Beans to the shopping list when the tag is scanned, and sends a notification to mobile apps. Useful for all sorts of shopping, especially when you run out of something and need to add it to the list quickly."
+triggers:
+  - trigger: tag
+    tag_id: a22c63a0-43e0-42e7-ad5b-f3274500cda4
+conditions: []
+actions:
+  - action: shopping_list.add_item
+    metadata: {}
+    data:
+      name: Baked Beans
+  - action: notify.mobile_app_erdnuss
+    metadata: {}
+    data:
+      message: Baked Beans added
+      title: Addition to shopping list
+  - action: notify.mobile_app_xiaomi
+    metadata: {}
+    data:
+      message: Baked Beans added
+      title: Addition to shopping list
+mode: single
