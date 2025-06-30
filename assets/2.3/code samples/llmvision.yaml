@@ -1,0 +1,86 @@
+alias: Who's at the door?
+description: "Summarizes motion events detected by the doorbell camera."
+triggers:
+  - trigger: state
+    entity_id:
+      - binary_sensor.camera_cell_motion_detection_3
+      - binary_sensor.camera_cell_motion_detection
+      - binary_sensor.camera_cell_motion_detection_2
+    to: "on"
+conditions: []
+actions:
+  - action: llmvision.stream_analyzer
+    metadata: {}
+    data:
+      remember: true
+      use_memory: true
+      duration: 5
+      max_frames: 4
+      include_filename: false
+      target_width: 1280
+      max_tokens: 100
+      temperature: 0.2
+      generate_title: true
+      expose_images: true
+      image_entity:
+        - camera.camera_fluent
+      message: >-
+        Summarize the events based on a series of images captured at short
+        intervals. You are a doorbell camera, looking out onto a common
+        footpath. Focus only on moving subjects such as people, vehicles, and
+        other active elements. Ignore static objects and scenery. Provide a
+        clear and concise account of movements and interactions. Do not mention
+        or imply the existence of images—present the information as if directly
+        observing the events. If there is no movement detected in any frames,
+        return only 'all clear'
+      provider: 01JTRRH7YMV69TQVWZRAX2EX2R
+    response_variable: llm_response
+  - action: llmvision.remember
+    metadata: {}
+    data:
+      camera_entity: camera.camera_fluent
+      title: Motion detected
+      summary: ""
+    enabled: false
+  - if:
+      - condition: or
+        conditions:
+          - condition: and
+            conditions:
+              - condition: template
+                value_template: "{{ llm_response.response_text != 'All clear' }}"
+              - condition: template
+                value_template: "{{ llm_response.response_text != 'All clear.' }}"
+              - condition: template
+                value_template: "{{ llm_response.response_text != 'all clear.' }}"
+              - condition: template
+                value_template: "{{ llm_response.response_text != 'all clear' }}"
+    then:
+      - action: input_text.set_value
+        metadata: {}
+        data:
+          value: >-
+            {{ now().strftime('%d-%m %H:%M:%S') }} - {{
+            llm_response.response_text }}
+        target:
+          entity_id: input_text.vision_llm
+      - action: notify.mobile_app_phone
+        metadata: {}
+        data:
+          message: "{{ llm_response.response_text }}"
+          title: Spotted
+      - action: camera.snapshot
+        metadata: {}
+        target:
+          entity_id: camera.camera_fluent
+        data:
+          filename: >-
+            /tmp/{{ camera.camera_fluent }}_{{ now().strftime("%Y%m%d-%H%M%S")
+            }}.jpg
+        enabled: false
+  - delay:
+      hours: 0
+      minutes: 2
+      seconds: 0
+      milliseconds: 0
+mode: single
