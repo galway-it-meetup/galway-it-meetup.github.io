@@ -1,6 +1,6 @@
 ---
 
-layout: home
+layout: index
 title: Galway Information Technology Meetup Group
 ---
 
