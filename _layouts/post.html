@@ -13,6 +13,11 @@
     />
     <link rel="stylesheet" href="{{'assets/css/main.css' | relative_url }}" />
     <link rel="stylesheet" href="{{'assets/css/custom.css' | relative_url }}" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/css/nanogallery2.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
   </head>
   <body class="is-preload">
     <!-- Page Wrapper -->
@@ -33,8 +38,8 @@
           <!-- Nav -->
           <nav id="menu">
             <ul class="links">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="generic.html">About</a></li>
+              <li><a href="/">Home</a></li>
+              <li><a href="/about">About</a></li>
               <li>
                 <a href="/listing/2025/06/09/past-events.html">Past Events</a>
               </li>
@@ -58,9 +63,7 @@
               <p>{{ page.date }}</p>
             </header>
 
-            <a href="#" class="image main"
-              ><img src="images/pic09.jpg" alt=""
-            /></a>
+            <a href="#" class="image main"></a>
             {{content}}
           </section>
         </div>
@@ -108,6 +111,7 @@
 
     <!-- Scripts -->
     <script src="{{'assets/js/jquery.min.js' | relative_url }}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/nanogallery2/3.0.5/jquery.nanogallery2.min.js"></script>
     <script src="{{'assets/js/browser.min.js' | relative_url }}"></script>
     <script src="{{'assets/js/breakpoints.min.js' | relative_url }}"></script>
     <script src="{{'assets/js/util.js' | relative_url}}"></script>
