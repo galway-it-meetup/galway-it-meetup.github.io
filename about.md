@@ -26,7 +26,7 @@ Aisling has been helping out behind the scences since the meetup started.
 
 A developer support specialist transitioning to cybersecurity, she's also running the Instagram page, and has taken over the website and emails for the group!
 
-She's spoken on OWASP, self-hosting and smart home tech! You can reach her on [LinkedIn](https://www.linkedin.com/in/liamkrewer/) or via [email](mailto:hello@galwayit.org)
+She's spoken on OWASP, self-hosting and smart home tech! You can reach her on [LinkedIn](https://www.linkedin.com/in/aislingkrewer/) or via [email](mailto:hello@galwayit.org)
 
 
 ![]({{'/images/ais.jpg' | relative_url }})
