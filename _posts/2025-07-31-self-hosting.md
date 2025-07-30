@@ -27,7 +27,7 @@ Self Hosting 101 - [Aisling Krewer]([Aisling Krewer](https://www.linkedin.com/in
 - [Self Hosted podcast](https://selfhosted.show/)
 
 ## Assets
-- [Fun with AI](/assets/2.4/Self-Hosting-101.pdf)
+- [Fun with AI](/assets/2.4/Self-Hosting-101.pdf) - Note: Slide templates generated with AI using gamma.app
 
 ## Photos 
 TBC
