@@ -207,7 +207,7 @@ body.is-preload *:after {
 /* Type */
 
 body {
-  color: rgba(67, 75, 86, 0.75);
+  color: rgba(25, 32, 40, 0.75);
 }
 
 body,
@@ -2029,7 +2029,7 @@ input[type="button"].primary,
 button.primary,
 .button.primary {
   background-color: #575b72;
-  color: #ffffff !important;
+  color: #000 !important;
 }
 
 input[type="submit"].primary:hover,
@@ -2411,7 +2411,7 @@ input[type="email"].invert,
 select.invert,
 textarea.invert {
   background: #ffffff;
-  color: rgba(67, 75, 86, 0.75);
+  color: rgba(25, 32, 40, 0.75);
 }
 
 input[type="text"].invert::-webkit-input-placeholder,
@@ -2457,7 +2457,7 @@ select option {
 
 input[type="checkbox"] + label,
 input[type="radio"] + label {
-  color: rgba(67, 75, 86, 0.75);
+  color: rgba(25, 32, 40, 0.75);
 }
 
 input[type="checkbox"] + label:before,
@@ -2470,7 +2470,7 @@ input[type="checkbox"]:checked + label:before,
 input[type="radio"]:checked + label:before {
   background-color: #fed586;
   border-color: #fed586;
-  color: #ffffff;
+  color: #000;
 }
 
 input[type="checkbox"]:focus + label:before,
@@ -2923,7 +2923,7 @@ header.major > :first-child {
 }
 
 header p {
-  color: rgba(67, 75, 86, 0.5);
+  color: rgba(25, 32, 40, 0.75);
 }
 
 /* Table */
@@ -3134,7 +3134,7 @@ table.alt tbody tr td {
 }
 
 .carousel.accent1 nav a {
-  color: #ffffff;
+  color: #000;
 }
 
 .carousel.accent2 {
@@ -3142,7 +3142,7 @@ table.alt tbody tr td {
 }
 
 .carousel.accent2 nav a {
-  color: #ffffff;
+  color: #000;
 }
 
 .carousel.accent3 {
@@ -3150,7 +3150,7 @@ table.alt tbody tr td {
 }
 
 .carousel.accent3 nav a {
-  color: #ffffff;
+  color: #000;
 }
 
 .carousel.accent4 {
@@ -3158,7 +3158,7 @@ table.alt tbody tr td {
 }
 
 .carousel.accent4 nav a {
-  color: #ffffff;
+  color: #000;
 }
 
 @media screen and (max-width: 1680px) {
@@ -3358,16 +3358,16 @@ table.alt tbody tr td {
 .wrapper > .inner > .main.accent1 input,
 .wrapper > .inner > .main.accent1 select,
 .wrapper > .inner > .main.accent1 textarea {
-  color: #ffffff;
+  color: #000;
 }
 
 .wrapper > .inner > .main.accent1 a {
-  color: #ffffff;
+  color: #000;
 }
 
 .wrapper > .inner > .main.accent1 strong,
 .wrapper > .inner > .main.accent1 b {
-  color: #ffffff;
+  color: #000;
 }
 
 .wrapper > .inner > .main.accent1 h1,
@@ -3376,7 +3376,7 @@ table.alt tbody tr td {
 .wrapper > .inner > .main.accent1 h4,
 .wrapper > .inner > .main.accent1 h5,
 .wrapper > .inner > .main.accent1 h6 {
-  color: #ffffff;
+  color: #000;
 }
 
 .wrapper > .inner > .main.accent1 blockquote {
@@ -3403,7 +3403,7 @@ table.alt tbody tr td {
 .wrapper > .inner > .main.accent1 .button {
   background-color: transparent;
   box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25);
-  color: #ffffff !important;
+  color: #000 !important;
 }
 
 .wrapper > .inner > .main.accent1 input[type="submit"]:hover,
@@ -3429,7 +3429,7 @@ table.alt tbody tr td {
 .wrapper > .inner > .main.accent1 .button.primary {
   box-shadow: 0 0 3em 0 rgba(0, 0, 0, 0.1);
   background-color: #5f6484;
-  color: #ffffff !important;
+  color: #000 !important;
 }
 
 .wrapper > .inner > .main.accent1 input[type="submit"].primary:hover,
@@ -3453,7 +3453,7 @@ table.alt tbody tr td {
 }
 
 .wrapper > .inner > .main.accent1 label {
-  color: #ffffff;
+  color: #000;
 }
 
 .wrapper > .inner > .main.accent1 input[type="text"],
@@ -3524,7 +3524,7 @@ table.alt tbody tr td {
 .wrapper > .inner > .main.accent1 select.invert,
 .wrapper > .inner > .main.accent1 textarea.invert {
   background: #ffffff;
-  color: rgba(67, 75, 86, 0.75);
+  color: rgba(25, 32, 40, 0.75);
 }
 
 .wrapper
@@ -3588,7 +3588,7 @@ table.alt tbody tr td {
 }
 
 .wrapper > .inner > .main.accent1 select option {
-  color: #ffffff;
+  color: #000;
   background: #575b72;
 }
 
@@ -3607,7 +3607,7 @@ table.alt tbody tr td {
 .wrapper > .inner > .main.accent1 input[type="radio"]:checked + label:before {
   background-color: #fed586;
   border-color: #fed586;
-  color: #ffffff;
+  color: #000;
 }
 
 .wrapper > .inner > .main.accent1 input[type="checkbox"]:focus + label:before,
@@ -3625,7 +3625,7 @@ table.alt tbody tr td {
 }
 
 .wrapper > .inner > .main.accent1 header p {
-  color: rgba(255, 255, 255, 1);
+  color: #000;
 }
 
 .wrapper > .inner > .main.accent1 table tbody tr {
@@ -3637,7 +3637,7 @@ table.alt tbody tr td {
 }
 
 .wrapper > .inner > .main.accent1 table th {
-  color: #ffffff;
+  color: #000;
 }
 
 .wrapper > .inner > .main.accent1 table thead {
@@ -3660,16 +3660,16 @@ table.alt tbody tr td {
 .wrapper > .inner > .main.accent2 input,
 .wrapper > .inner > .main.accent2 select,
 .wrapper > .inner > .main.accent2 textarea {
-  color: #ffffff;
+  color: #000;
 }
 
 .wrapper > .inner > .main.accent2 a {
-  color: #ffffff;
+  color: #000;
 }
 
 .wrapper > .inner > .main.accent2 strong,
 .wrapper > .inner > .main.accent2 b {
-  color: #ffffff;
+  color: #000;
 }
 
 .wrapper > .inner > .main.accent2 h1,
@@ -3678,7 +3678,7 @@ table.alt tbody tr td {
 .wrapper > .inner > .main.accent2 h4,
 .wrapper > .inner > .main.accent2 h5,
 .wrapper > .inner > .main.accent2 h6 {
-  color: #ffffff;
+  color: #000;
 }
 
 .wrapper > .inner > .main.accent2 blockquote {
@@ -3705,7 +3705,7 @@ table.alt tbody tr td {
 .wrapper > .inner > .main.accent2 .button {
   background-color: transparent;
   box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25);
-  color: #ffffff !important;
+  color: #000 !important;
 }
 
 .wrapper > .inner > .main.accent2 input[type="submit"]:hover,
@@ -3731,7 +3731,7 @@ table.alt tbody tr td {
 .wrapper > .inner > .main.accent2 .button.primary {
   box-shadow: 0 0 3em 0 rgba(0, 0, 0, 0.1);
   background-color: #5ab7bd;
-  color: #ffffff !important;
+  color: #000 !important;
 }
 
 .wrapper > .inner > .main.accent2 input[type="submit"].primary:hover,
@@ -3755,7 +3755,7 @@ table.alt tbody tr td {
 }
 
 .wrapper > .inner > .main.accent2 label {
-  color: #ffffff;
+  color: #000;
 }
 
 .wrapper > .inner > .main.accent2 input[type="text"],
@@ -3826,7 +3826,7 @@ table.alt tbody tr td {
 .wrapper > .inner > .main.accent2 select.invert,
 .wrapper > .inner > .main.accent2 textarea.invert {
   background: #ffffff;
-  color: rgba(67, 75, 86, 0.75);
+  color: rgba(25, 32, 40, 0.75);
 }
 
 .wrapper
@@ -3890,7 +3890,7 @@ table.alt tbody tr td {
 }
 
 .wrapper > .inner > .main.accent2 select option {
-  color: #ffffff;
+  color: #000;
   background: #4cabb1;
 }
 
@@ -3909,7 +3909,7 @@ table.alt tbody tr td {
 .wrapper > .inner > .main.accent2 input[type="radio"]:checked + label:before {
   background-color: #fed586;
   border-color: #fed586;
-  color: #ffffff;
+  color: #000;
 }
 
 .wrapper > .inner > .main.accent2 input[type="checkbox"]:focus + label:before,
@@ -3927,7 +3927,7 @@ table.alt tbody tr td {
 }
 
 .wrapper > .inner > .main.accent2 header p {
-  color: rgba(255, 255, 255, 1);
+  color: #000;
 }
 
 .wrapper > .inner > .main.accent2 table tbody tr {
@@ -3939,7 +3939,7 @@ table.alt tbody tr td {
 }
 
 .wrapper > .inner > .main.accent2 table th {
-  color: #ffffff;
+  color: #000;
 }
 
 .wrapper > .inner > .main.accent2 table thead {
@@ -3962,16 +3962,16 @@ table.alt tbody tr td {
 .wrapper > .inner > .main.accent3 input,
 .wrapper > .inner > .main.accent3 select,
 .wrapper > .inner > .main.accent3 textarea {
-  color: #ffffff;
+  color: #000;
 }
 
 .wrapper > .inner > .main.accent3 a {
-  color: #ffffff;
+  color: #000;
 }
 
 .wrapper > .inner > .main.accent3 strong,
 .wrapper > .inner > .main.accent3 b {
-  color: #ffffff;
+  color: #000;
 }
 
 .wrapper > .inner > .main.accent3 h1,
@@ -3980,7 +3980,7 @@ table.alt tbody tr td {
 .wrapper > .inner > .main.accent3 h4,
 .wrapper > .inner > .main.accent3 h5,
 .wrapper > .inner > .main.accent3 h6 {
-  color: #ffffff;
+  color: #000;
 }
 
 .wrapper > .inner > .main.accent3 blockquote {
@@ -4007,7 +4007,7 @@ table.alt tbody tr td {
 .wrapper > .inner > .main.accent3 .button {
   background-color: transparent;
   box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25);
-  color: #ffffff !important;
+  color: #000 !important;
 }
 
 .wrapper > .inner > .main.accent3 input[type="submit"]:hover,
@@ -4033,7 +4033,7 @@ table.alt tbody tr td {
 .wrapper > .inner > .main.accent3 .button.primary {
   box-shadow: 0 0 3em 0 rgba(0, 0, 0, 0.1);
   background-color: #79d1b8;
-  color: #ffffff !important;
+  color: #000 !important;
 }
 
 .wrapper > .inner > .main.accent3 input[type="submit"].primary:hover,
@@ -4057,7 +4057,7 @@ table.alt tbody tr td {
 }
 
 .wrapper > .inner > .main.accent3 label {
-  color: #ffffff;
+  color: #000;
 }
 
 .wrapper > .inner > .main.accent3 input[type="text"],
@@ -4128,7 +4128,7 @@ table.alt tbody tr td {
 .wrapper > .inner > .main.accent3 select.invert,
 .wrapper > .inner > .main.accent3 textarea.invert {
   background: #ffffff;
-  color: rgba(67, 75, 86, 0.75);
+  color: rgba(25, 32, 40, 0.75);
 }
 
 .wrapper
@@ -4192,7 +4192,7 @@ table.alt tbody tr td {
 }
 
 .wrapper > .inner > .main.accent3 select option {
-  color: #ffffff;
+  color: #000;
   background: #69c7ad;
 }
 
@@ -4211,7 +4211,7 @@ table.alt tbody tr td {
 .wrapper > .inner > .main.accent3 input[type="radio"]:checked + label:before {
   background-color: #fed586;
   border-color: #fed586;
-  color: #ffffff;
+  color: #000;
 }
 
 .wrapper > .inner > .main.accent3 input[type="checkbox"]:focus + label:before,
@@ -4229,7 +4229,7 @@ table.alt tbody tr td {
 }
 
 .wrapper > .inner > .main.accent3 header p {
-  color: rgba(255, 255, 255, 1);
+  color: #000;
 }
 
 .wrapper > .inner > .main.accent3 table tbody tr {
@@ -4241,7 +4241,7 @@ table.alt tbody tr td {
 }
 
 .wrapper > .inner > .main.accent3 table th {
-  color: #ffffff;
+  color: #000;
 }
 
 .wrapper > .inner > .main.accent3 table thead {
@@ -4264,16 +4264,16 @@ table.alt tbody tr td {
 .wrapper > .inner > .main.accent4 input,
 .wrapper > .inner > .main.accent4 select,
 .wrapper > .inner > .main.accent4 textarea {
-  color: #ffffff;
+  color: #000;
 }
 
 .wrapper > .inner > .main.accent4 a {
-  color: #ffffff;
+  color: #000;
 }
 
 .wrapper > .inner > .main.accent4 strong,
 .wrapper > .inner > .main.accent4 b {
-  color: #ffffff;
+  color: #000;
 }
 
 .wrapper > .inner > .main.accent4 h1,
@@ -4282,7 +4282,7 @@ table.alt tbody tr td {
 .wrapper > .inner > .main.accent4 h4,
 .wrapper > .inner > .main.accent4 h5,
 .wrapper > .inner > .main.accent4 h6 {
-  color: #ffffff;
+  color: #000;
 }
 
 .wrapper > .inner > .main.accent4 blockquote {
@@ -4309,7 +4309,7 @@ table.alt tbody tr td {
 .wrapper > .inner > .main.accent4 .button {
   background-color: transparent;
   box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25);
-  color: #ffffff !important;
+  color: #000 !important;
 }
 
 .wrapper > .inner > .main.accent4 input[type="submit"]:hover,
@@ -4335,7 +4335,7 @@ table.alt tbody tr td {
 .wrapper > .inner > .main.accent4 .button.primary {
   box-shadow: 0 0 3em 0 rgba(0, 0, 0, 0.1);
   background-color: #ffde9f;
-  color: #ffffff !important;
+  color: #000 !important;
 }
 
 .wrapper > .inner > .main.accent4 input[type="submit"].primary:hover,
@@ -4359,7 +4359,7 @@ table.alt tbody tr td {
 }
 
 .wrapper > .inner > .main.accent4 label {
-  color: #ffffff;
+  color: #000;
 }
 
 .wrapper > .inner > .main.accent4 input[type="text"],
@@ -4430,7 +4430,7 @@ table.alt tbody tr td {
 .wrapper > .inner > .main.accent4 select.invert,
 .wrapper > .inner > .main.accent4 textarea.invert {
   background: #ffffff;
-  color: rgba(67, 75, 86, 0.75);
+  color: rgba(25, 32, 40, 0.75);
 }
 
 .wrapper
@@ -4494,7 +4494,7 @@ table.alt tbody tr td {
 }
 
 .wrapper > .inner > .main.accent4 select option {
-  color: #ffffff;
+  color: #000;
   background: #fed586;
 }
 
@@ -4513,7 +4513,7 @@ table.alt tbody tr td {
 .wrapper > .inner > .main.accent4 input[type="radio"]:checked + label:before {
   background-color: #fed586;
   border-color: #fed586;
-  color: #ffffff;
+  color: #000;
 }
 
 .wrapper > .inner > .main.accent4 input[type="checkbox"]:focus + label:before,
@@ -4531,7 +4531,7 @@ table.alt tbody tr td {
 }
 
 .wrapper > .inner > .main.accent4 header p {
-  color: rgba(255, 255, 255, 1);
+  color: #000;
 }
 
 .wrapper > .inner > .main.accent4 table tbody tr {
@@ -4543,7 +4543,7 @@ table.alt tbody tr td {
 }
 
 .wrapper > .inner > .main.accent4 table th {
-  color: #ffffff;
+  color: #000;
 }
 
 .wrapper > .inner > .main.accent4 table thead {
@@ -4593,7 +4593,7 @@ table.alt tbody tr td {
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  color: #ffffff;
+  color: #000;
   cursor: default;
   line-height: 1.5;
   margin: 0 0 3em 0;
@@ -4602,7 +4602,7 @@ table.alt tbody tr td {
 
 #header a {
   border-bottom: 0;
-  color: inherit;
+  color: #fff;
 }
 
 #header > .logo {
@@ -4789,16 +4789,16 @@ table.alt tbody tr td {
 #menu input,
 #menu select,
 #menu textarea {
-  color: #ffffff;
+  color: #000;
 }
 
 #menu a {
-  color: #ffffff;
+  color: #000;
 }
 
 #menu strong,
 #menu b {
-  color: #ffffff;
+  color: #000;
 }
 
 #menu h1,
@@ -4807,7 +4807,7 @@ table.alt tbody tr td {
 #menu h4,
 #menu h5,
 #menu h6 {
-  color: #ffffff;
+  color: #000;
 }
 
 #menu blockquote {
@@ -4830,7 +4830,7 @@ table.alt tbody tr td {
 #menu .button {
   background-color: transparent;
   box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25);
-  color: #ffffff !important;
+  color: #000 !important;
 }
 
 #menu input[type="submit"]:hover,
@@ -4856,7 +4856,7 @@ table.alt tbody tr td {
 #menu .button.primary {
   box-shadow: 0 0 3em 0 rgba(0, 0, 0, 0.1);
   background-color: #5ab7bd;
-  color: #ffffff !important;
+  color: #000 !important;
 }
 
 #menu input[type="submit"].primary:hover,
@@ -4947,7 +4947,7 @@ table.alt tbody tr td {
 }
 
 #menu .close:hover {
-  color: #ffffff;
+  color: #000;
 }
 
 @media screen and (max-width: 736px) {
@@ -5028,22 +5028,22 @@ body.is-menu-visible #menu {
 
 #banner > .items section.accent1 {
   background-color: #575b72;
-  color: rgba(255, 255, 255, 1);
+  color: #000;
 }
 
 #banner > .items section.accent1 input,
 #banner > .items section.accent1 select,
 #banner > .items section.accent1 textarea {
-  color: #ffffff;
+  color: #000;
 }
 
 #banner > .items section.accent1 a {
-  color: #ffffff;
+  color: #000;
 }
 
 #banner > .items section.accent1 strong,
 #banner > .items section.accent1 b {
-  color: #ffffff;
+  color: #000;
 }
 
 #banner > .items section.accent1 h1,
@@ -5052,7 +5052,7 @@ body.is-menu-visible #menu {
 #banner > .items section.accent1 h4,
 #banner > .items section.accent1 h5,
 #banner > .items section.accent1 h6 {
-  color: #ffffff;
+  color: #000;
 }
 
 #banner > .items section.accent1 blockquote {
@@ -5075,7 +5075,7 @@ body.is-menu-visible #menu {
 #banner > .items section.accent1 .button {
   background-color: transparent;
   box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25);
-  color: #ffffff !important;
+  color: #000 !important;
 }
 
 #banner > .items section.accent1 input[type="submit"]:hover,
@@ -5101,7 +5101,7 @@ body.is-menu-visible #menu {
 #banner > .items section.accent1 .button.primary {
   box-shadow: 0 0 3em 0 rgba(0, 0, 0, 0.1);
   background-color: #5f6484;
-  color: #ffffff !important;
+  color: #000 !important;
 }
 
 #banner > .items section.accent1 input[type="submit"].primary:hover,
@@ -5122,22 +5122,22 @@ body.is-menu-visible #menu {
 
 #banner > .items section.accent2 {
   background-color: #4cabb1;
-  color: rgba(255, 255, 255, 1);
+  color: #000;
 }
 
 #banner > .items section.accent2 input,
 #banner > .items section.accent2 select,
 #banner > .items section.accent2 textarea {
-  color: #ffffff;
+  color: #000;
 }
 
 #banner > .items section.accent2 a {
-  color: #ffffff;
+  color: #000;
 }
 
 #banner > .items section.accent2 strong,
 #banner > .items section.accent2 b {
-  color: #ffffff;
+  color: #000;
 }
 
 #banner > .items section.accent2 h1,
@@ -5146,7 +5146,7 @@ body.is-menu-visible #menu {
 #banner > .items section.accent2 h4,
 #banner > .items section.accent2 h5,
 #banner > .items section.accent2 h6 {
-  color: #ffffff;
+  color: #000;
 }
 
 #banner > .items section.accent2 blockquote {
@@ -5169,7 +5169,7 @@ body.is-menu-visible #menu {
 #banner > .items section.accent2 .button {
   background-color: transparent;
   box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25);
-  color: #ffffff !important;
+  color: #000 !important;
 }
 
 #banner > .items section.accent2 input[type="submit"]:hover,
@@ -5195,7 +5195,7 @@ body.is-menu-visible #menu {
 #banner > .items section.accent2 .button.primary {
   box-shadow: 0 0 3em 0 rgba(0, 0, 0, 0.1);
   background-color: #5ab7bd;
-  color: #ffffff !important;
+  color: #000 !important;
 }
 
 #banner > .items section.accent2 input[type="submit"].primary:hover,
@@ -5216,22 +5216,22 @@ body.is-menu-visible #menu {
 
 #banner > .items section.accent3 {
   background-color: #69c7ad;
-  color: rgba(255, 255, 255, 1);
+  color: #000;
 }
 
 #banner > .items section.accent3 input,
 #banner > .items section.accent3 select,
 #banner > .items section.accent3 textarea {
-  color: #ffffff;
+  color: #000;
 }
 
 #banner > .items section.accent3 a {
-  color: #ffffff;
+  color: #000;
 }
 
 #banner > .items section.accent3 strong,
 #banner > .items section.accent3 b {
-  color: #ffffff;
+  color: #000;
 }
 
 #banner > .items section.accent3 h1,
@@ -5240,7 +5240,7 @@ body.is-menu-visible #menu {
 #banner > .items section.accent3 h4,
 #banner > .items section.accent3 h5,
 #banner > .items section.accent3 h6 {
-  color: #ffffff;
+  color: #000;
 }
 
 #banner > .items section.accent3 blockquote {
@@ -5263,7 +5263,7 @@ body.is-menu-visible #menu {
 #banner > .items section.accent3 .button {
   background-color: transparent;
   box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25);
-  color: #ffffff !important;
+  color: #000 !important;
 }
 
 #banner > .items section.accent3 input[type="submit"]:hover,
@@ -5289,7 +5289,7 @@ body.is-menu-visible #menu {
 #banner > .items section.accent3 .button.primary {
   box-shadow: 0 0 3em 0 rgba(0, 0, 0, 0.1);
   background-color: #79d1b8;
-  color: #ffffff !important;
+  color: #000 !important;
 }
 
 #banner > .items section.accent3 input[type="submit"].primary:hover,
@@ -5310,22 +5310,22 @@ body.is-menu-visible #menu {
 
 #banner > .items section.accent4 {
   background-color: #fed586;
-  color: rgba(255, 255, 255, 1);
+  color: #000;
 }
 
 #banner > .items section.accent4 input,
 #banner > .items section.accent4 select,
 #banner > .items section.accent4 textarea {
-  color: #ffffff;
+  color: #000;
 }
 
 #banner > .items section.accent4 a {
-  color: #ffffff;
+  color: #000;
 }
 
 #banner > .items section.accent4 strong,
 #banner > .items section.accent4 b {
-  color: #ffffff;
+  color: #000;
 }
 
 #banner > .items section.accent4 h1,
@@ -5334,7 +5334,7 @@ body.is-menu-visible #menu {
 #banner > .items section.accent4 h4,
 #banner > .items section.accent4 h5,
 #banner > .items section.accent4 h6 {
-  color: #ffffff;
+  color: #000;
 }
 
 #banner > .items section.accent4 blockquote {
@@ -5357,7 +5357,7 @@ body.is-menu-visible #menu {
 #banner > .items section.accent4 .button {
   background-color: transparent;
   box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25);
-  color: #ffffff !important;
+  color: #000 !important;
 }
 
 #banner > .items section.accent4 input[type="submit"]:hover,
@@ -5383,7 +5383,7 @@ body.is-menu-visible #menu {
 #banner > .items section.accent4 .button.primary {
   box-shadow: 0 0 3em 0 rgba(0, 0, 0, 0.1);
   background-color: #ffde9f;
-  color: #ffffff !important;
+  color: #000 !important;
 }
 
 #banner > .items section.accent4 input[type="submit"].primary:hover,
@@ -5536,7 +5536,7 @@ body.is-preload #banner > .slider {
 
 #footer {
   background-color: #575b72;
-  color: rgba(255, 255, 255, 1);
+  color: #000;
   margin-top: 4em;
   background-color: transparent;
   text-align: center;
@@ -5545,16 +5545,16 @@ body.is-preload #banner > .slider {
 #footer input,
 #footer select,
 #footer textarea {
-  color: #ffffff;
+  color: #000;
 }
 
 #footer a {
-  color: #ffffff;
+  color: #000;
 }
 
 #footer strong,
 #footer b {
-  color: #ffffff;
+  color: #000;
 }
 
 #footer h1,
@@ -5563,7 +5563,7 @@ body.is-preload #banner > .slider {
 #footer h4,
 #footer h5,
 #footer h6 {
-  color: #ffffff;
+  color: #000;
 }
 
 #footer blockquote {
@@ -5652,7 +5652,7 @@ body.is-preload #banner > .slider {
 }
 
 #footer .contact-icons li:before {
-  color: #ffffff;
+  color: #000;
   font-size: 0.85em;
 }
 
@@ -5661,7 +5661,7 @@ body.is-preload #banner > .slider {
 }
 
 #footer .copyright {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 @media screen and (max-width: 980px) {

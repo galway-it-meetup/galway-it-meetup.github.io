@@ -33,7 +33,7 @@ She's spoken on OWASP, self-hosting and smart home tech! You can reach her on [L
 
 ## Get Involved
 
-Find out about our latest events on [meetup.com](https://www.meetup.com/galway-information-technology/), [LinkedIn](https://www.linkedin.com/groups/14314350/) and [Instagram](https://www.instagram.com/galway.it.meetup/)
+Find out about our latest events on [meetup.com](https://www.meetup.com/galway-information-technology/), [eventbrite](https://www.eventbrite.com/o/galway-it-115249290071), [LinkedIn](https://www.linkedin.com/groups/14314350/) and [Instagram](https://www.instagram.com/galway.it.meetup/)
 
 Reach out to [us](mailto:hello@galwayit.org) if you
 - Want to speak at an event
