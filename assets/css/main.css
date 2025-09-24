@@ -4380,6 +4380,24 @@ table.alt tbody tr td {
   box-shadow: inset 0 0 0 1px #fed586;
 }
 
+.wrapper > .inner > .main.accent5 {
+  background-color: #252525;
+  *, h2, p { 
+    background-color: #252525;
+    color: white;
+  }
+  ul.actions.fit {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    li > a {
+      display: flex;
+      justify-content: space-around;
+      border: none;
+    }
+  }
+}
+
 .wrapper
   > .inner
   > .main.accent4
