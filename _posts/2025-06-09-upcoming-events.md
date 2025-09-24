@@ -9,7 +9,7 @@ summary:
 ---
 
 {% for post in site.posts %}
-    {% if post.tags contains 'upcoming-events' %}
+    {% if post.tags contains 'upcoming_events' %}
 - [{{ post.title }}]({{ post.url }}) - {{ post.date | date: "%B %d, %Y" }}
     {% endif %}
 {% endfor %}
