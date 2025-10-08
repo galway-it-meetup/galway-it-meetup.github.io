@@ -5704,7 +5704,9 @@ body.is-preload #banner > .slider {
   }
 
   #footer .contact-icons {
-    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
   }
 
   #footer .contact-icons li {
