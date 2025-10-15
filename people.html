@@ -1,0 +1,131 @@
+---
+layout: default
+title: People
+permalink: /people/
+---
+<p>
+    A community is nothing without it's members. We are so thankful for all of you who come along and share your knowledge, experience and company.
+</p>
+<p>
+    Whether you are a regular, or have only come along once, we invite you to add your profile to this page. This is done through a Pull Request on Github, but don't worry, we have a whole guide showing you how to do this. Just click the big friendly button below!
+</p> 
+<p>
+    Why should you add your name and face to our meetup? 
+</p>
+<ul>
+    <li>
+        It's a great help for staying connected will felow members - If you met someone but in all the excitement didn't exchange details, you might find them here. 
+    </li>
+    <li>
+        It's a novel online profile away from traditional social media.
+    </li>
+    <li>
+        Profiles are made via a github Pull Request - it's a way to learn about source control and make an Open Source Contribution!
+    </li>
+    <li>
+        We want to show off how many awesome people are part of our community.
+    </li>
+</ul>
+<br/>
+<br/>
+<ul id="random_people" class="people">
+    <!-- This is where the JS script will place randomly sorted profiles - that way every load promotes a different set of members to site visitors -->
+</ul>
+
+<ul id="sorted_people" style="display: none;">
+    {% for person in site.people %}
+    <li class="person-preview">
+        <a href="{{person.url}}">
+            <img src="{{person.image  | default: "/images/people/default.png"}}"/>
+            <h3> {{ person.name }}</h3>
+            <p> {{ person.quote }}</p>
+         </a>
+    </li>
+    {% endfor %}
+</ul>  
+<script>
+
+    const delay = (ms) => {
+        return new Promise((res) => {
+            setTimeout(res, ms)
+        });
+    }
+    const shuffle = (array) => {
+        array.sort(() => Math.random() - 0.5);
+    }
+    ;(async () => {
+        const delayFirstNPeople = 10;
+        const people = Array.from(document.querySelector('#sorted_people').children);
+        shuffle(people); 
+        for (let [index, person] of people.entries()) {
+            if (index < delayFirstNPeople) {
+                await delay(100);
+            }
+            document.querySelector('#random_people').appendChild(person)
+        }
+    })();
+</script>
+<style>
+
+    .people {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap:10px;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .person-preview {
+        display: block;
+        height: 340px;
+        width: 240px;  
+        border-radius: 20px;
+        background-color: #575b72;
+        color: white;
+        padding:10px;
+        margin: 0 10px;
+    }
+    .person-preview img {
+        border-radius: 20px;
+        max-width:220px;
+        max-height:220px;
+        margin:0 auto 10px auto;
+    }
+    .person-preview h3 {
+        color: white;
+        font-size: 20px;  
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;  
+        text-align: center;
+        margin-bottom: 4px;
+    }
+    .person-preview p {
+        color: white;
+        font-size: 12px;
+        text-overflow: ellipsis;
+        text-align: center;
+        overflow: hidden;
+    }
+    .person-preview p:before {
+        content: "\"";
+        font-size: 20px;
+        color: #a9a9a9;
+    }
+    .person-preview p:after {
+        content: "\"";
+        font-size: 20px;
+        color: #a9a9a9;
+    } 
+    @media screen and (max-width: 660px) {
+        .person-preview {
+            margin: 0 10px;
+            height: 400px;
+            width: 300px;  
+        }
+        .person-preview img { 
+            max-width:280px;
+            max-height:280px;
+        }
+    }
+</style>

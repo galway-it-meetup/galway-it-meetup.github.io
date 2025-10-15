@@ -1,5 +1,5 @@
 ---
-layout: contact
+layout: default
 title: Sponsorship & Partnerships
 permalink: /sponsorship/
 ---

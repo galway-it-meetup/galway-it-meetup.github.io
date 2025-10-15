@@ -1,103 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Galway IT Meetup</title>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, user-scalable=yes"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
-    <link rel="stylesheet" href="{{'assets/css/main.css' | relative_url }}" />
-    <link rel="stylesheet" href="{{'assets/css/custom.css' | relative_url }}" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/css/nanogallery2.min.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <script
-      defer
-      data-domain="galwayit.org"
-      src="https://plausible.io/js/script.file-downloads.outbound-links.js"
-    ></script>
-    <script>
-      window.plausible =
-        window.plausible ||
-        function () {
-          (window.plausible.q = window.plausible.q || []).push(arguments);
-        };
-    </script>
-  </head>
-  <body class="is-preload">
-    <!-- Page Wrapper -->
-    <div id="page-wrapper">
-      <!-- Wrapper -->
-      <div class="wrapper">
-        <div class="inner">
-          <!-- Header -->
-          <header id="header">
-            <a href="/" class="logo"> Galway IT Meetup</a>
-            <nav>
-              <ul>
-                <li><a href="#menu">Menu</a></li>
-              </ul>
-            </nav>
-          </header>
+---
+layout: index
+---
+<!-- Wrapper -->
+<div class="wrapper">
+  <div class="inner">
+    <!-- Main -->
+    <section class="main">
+      <header class="major">
+        <h1>{{ page.title }}</h1>
+      </header>
 
-          <!-- Nav -->
-          <nav id="menu">
-            <ul class="links">
-              <li><a href="/">Home</a></li>
-              <li><a href="/about">About</a></li>
-              <li>
-                <a href="/listing/2025/06/09/past-events.html">Past Events</a>
-              </li>
-              <li>
-                <a href="/listing/2025/06/09/upcoming-events.html"
-                  >Upcoming Events</a
-                >
-              </li>
-              <li>
-                <a href="/speaker-guidelines">Speaker Guidelines</a>
-              </li>
-              <li>
-                <a href="/sponsorship">Sponsorships & Partnerships</a>
-              </li>
-              <li>
-                <a href="/code-of-conduct">Code of Conduct</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-
-      <!-- Wrapper -->
-      <div class="wrapper">
-        <div class="inner">
-          <!-- Main -->
-          <section class="main">
-            <header class="major">
-              <h1>{{ page.title }}</h1>
-            </header>
-
-            <a href="#" class="image main"></a>
-            {{content}}
-          </section>
-        </div>
-      </div>
-
-       {% include footer.html %}
-    </div>
-
-    <!-- Scripts -->
-    <script src="{{'assets/js/jquery.min.js' | relative_url }}"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/nanogallery2/3.0.5/jquery.nanogallery2.min.js"></script>
-    <script src="{{'assets/js/browser.min.js' | relative_url }}"></script>
-    <script src="{{'assets/js/breakpoints.min.js' | relative_url }}"></script>
-    <script src="{{'assets/js/util.js' | relative_url}}"></script>
-    <script src="{{'assets/js/main.js' | relative_url}}"></script>
-  </body>
-</html>
+      <a href="#" class="image main"></a>
+      {{content}}
+    </section>
+  </div>
+</div>
+ 

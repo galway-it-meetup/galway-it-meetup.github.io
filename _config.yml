@@ -28,6 +28,10 @@ linkedin:
 meetup: https://www.meetup.com/galway-information-technology/
 github_username:  galway-it-meetup
 
+collections:
+  people:
+    output: true
+
 # Build settings
 # theme: minima
 remote_theme: jekyll/minima
