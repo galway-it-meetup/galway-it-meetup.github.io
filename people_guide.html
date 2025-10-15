@@ -1,0 +1,138 @@
+---
+layout: default
+title: Create Profile Guide
+permalink: /people_guide/
+---
+<p>
+    So you want to join our community's <a href="/people">members page</a>?
+    This guide will walk you through the steps of forking our repository, adding your details, previewing them and making a pull request. 
+</p>
+<h3>📝 Requirements</h3>
+<ul>
+    <li>
+        A Github Account
+    </li>
+    <li>
+        About 20 minutes
+    </li>
+    <li>
+        A photo of yourself (optional)
+    </li>
+</ul>
+<br/>
+<br/>
+
+<h3>Ψ Fork our Repository</h3>
+
+<p>
+    <img src="/assets/people_guide/fork.png"/>
+</p>
+<p>
+    Log into your Github Account (or sign up for one, it's free!) and head to the repository for this website: <a href="https://github.com/galway-it-meetup/galway-it-meetup.github.io">galway-it-meetup.github.io</a>.
+</p>
+    In the top right, you should see the Fork button which will take you to the fork form.
+    You can leave all of the default values and click "Create Fork".
+</p>
+
+<h3>🛠️ Configure Github Pages</h3>
+
+<p>
+    <img src="/assets/people_guide/page_settings.png"/>
+</p>
+<p>
+    Now you have your very own copy of our website's source code. If you are familiar with Github and Jekyll, you can download the code and follow the instructions in the readme.
+</p>
+<p>
+    If this is all fairly new, you can take a shortcut: In the top menu bar, click <b>settings</b>, then in the left hand side menu select <b>Pages</b>.
+</p>
+<p>
+    Under the <b>Build and deployment</b> section, select <b>"Deploy from a branch"</b>. Below you will select the branch to use - select the only option <b>main</b>.
+</p>
+<p>
+    The page should update to show it is building your website. The first build will take a few minutes, in the meantime we can add your profile:
+</p>
+
+<h3>👩🏻‍💻 Add your profile</h3>
+<p>
+    Return to the homepage of your repository by clicking <b>Code</b> in the top menu bar. You will see the folder structure of our website. Open the <b>_people</b> folder and open <b>example.md</b>. The file will look a bit strange. In the top left above the file view you should see <b>Preview</b> selected. Change it to <b>Code</b>. You should see the same as the screenshot below.
+</p>
+<p>
+    <img src="/assets/people_guide/example_profile.png">
+</p>
+<p>
+    This is an example profile. It is written in <a href="https://www.markdownguide.org/basic-syntax/">markdown</a>, but you can also use straight-up HTML in these files.
+</p>
+<p>
+    At the top of the file, between the two sets of three dashes, is a set of conifguration called <a href="https://mystmd.org/guide/frontmatter">front-matter</a>
+</p>
+<p>
+    You will make your own profile page by copying this example. Use the copy icon on the top left of the file view. Then go back to the <b>_people</b> folder page and in the top right, click <b>Add File</b> and select <b>Create new file</b>.
+</p>
+<p>
+    In the file path at the top of the page, enter <b>your_name.md</b>.
+</p>
+<p>
+    Paste in the contents of the example profile. In the front-matter, make the following changes:
+</p>
+<ul>
+    <li>
+        Replace the value of <b>name:</b> ("You") with "Your Name" (make sure to keep the quotes)
+    </li>
+    <li>
+        Replace the value of <b>quote:</b> with whatever text you would like shown under your image on the people page.
+    </li>
+    <li>
+        Replace the value of <b>image:</b> with "/images/people/your_name.png". Later on you will upload your image to this filename. Make sure to use the file extension (.png etc) with that of the file you plan on using.
+    </li>
+</ul>
+
+<p>
+    Now it's time to replace the contents of the profile below with whatever you like. Take inspiration from the other profiles already on the website. I recommend including a short bio and some links like LinkedIn, Linktree or your personal website.
+</p>
+<p>
+    You can check if your markdown is valid by switching the file view from <b>Code</b> to <b>Preview</b>. You will get a chance to view it exactly how it will be on the website and make changes later.
+</p>
+<p>
+    Save the file by pressing <b>Commit Changes</b>. Leave the options in the popup as they are and agan click <b>Commit changes</b>.
+</p>
+
+<h3>📸 Upload your Image</h3>
+<p>
+    In the left hand side folder view, select <b>images</b> then <b>people</b>.
+</p>
+<p>
+    Click <b>Add file</b> in the top right again, but this time select the upload option. Pick you profile picture, making sure it has the same name as you set in the profile. Once again save it by using <b>Commit Changes</b>.
+</p>
+
+<h3>👀 Preview your profile</h3>
+<p>
+    To preview your changes, go back to <b>Settings > Pages</b>. At the top of this page, there should now be a link to view your version of the website. Click this, and using the top left menu, go to the people page.
+</p>
+<p>
+    You should check both how your profile preview looks like on this page, and then click on it to see the full profile.
+</p>
+<p>
+    If you want to make any changes, feel free to go back to the previous steps. Remember there may be a slight delay between commiting a change and it becoming visible
+</p>
+
+<h3>📨 Pull Request</h3>
+<p>
+    To send your changes back to our website, you can submit a <b>Pull Request</b>. Back on the repository page, go to <b>Pull requests</b>. On the new page, click the <b>New pull request</b> button.
+</p>
+<p>
+    <img src="/assets/people_guide/pull_request.png"/>
+</p>
+<p>
+    As you forked our website's repository, the default options should all be correct, similar to the screensot above. The base repository belongs to <b>galway-it</b> while the head is your fork.
+</p>
+<p>
+    Below you can see all of the changes you have made. If you are happy with them, click <b>Create pull request</b>. You will have to add a title - just use your name here. Then click <b>Create pull request</b> again.
+</p>
+
+<h3>🎉 Success</h3>
+<p>
+    Congrats! You have made a code contribution to an Open Source Repository! Now we will get an email notification and have to review and approve your changes. If there's any questions, we can reply through the Pull Request.
+</p>
+<p>
+    Within a week or so your changes should be merged and live. If not, feel free to reach out to us via our socials.
+</p>

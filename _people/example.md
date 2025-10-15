@@ -3,6 +3,7 @@ layout: person
 name:  "You"
 tags: [member]
 quote: "Your face and name could be here"
+image: /images/people/example.png
 ---
 
 
