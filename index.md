@@ -9,10 +9,21 @@ layout: index
     <div class="items">
         <section class="accent2">
         <h1>Past Events</h1>
-        <p>
-            Take a look at our past events, where we discussed various
-            topics in the IT industry.
-        </p>
+        {%- assign _past_events = site.posts | where: 'categories', 'past_events' -%}
+        {%- assign _most_recent = _past_events.first -%}
+
+        <a href="{{_most_recent.url}}">
+            Most Recent:
+            <b>
+                {{_most_recent.date  | date: "%B %d, %Y" }}
+            </b>
+            <br/>
+            <b>
+                {{_most_recent.title}}
+            </b>
+        </a>
+        <br/>
+        <br/>
         <ul class="actions special">
             <li>
             <a
@@ -24,16 +35,47 @@ layout: index
         </section>
         <section class="accent3">
         <h1>Upcoming Events</h1>
-        <p>Take a look at our upcoming events!</p>
-        <ul class="actions special">
-            <li>
-            <a
-                href="/upcoming_events"
-                class="button primary"
-                >More</a
-            >
-            </li>
-        </ul>
+        {%- assign _upcoming_events = site.posts | where: 'categories', 'upcoming_events' -%}
+        {%- assign _soonest = _upcoming_events.first -%}
+        {% if _soonest%}
+            
+            <a href="{{_soonest.url}}">
+                Next event:
+                <b>
+                    {{_soonest.date  | date: "%B %d, %Y" }}
+                </b>
+                <br/>
+                <b>
+                    {{_soonest.title}}
+                </b>
+            </a>
+            <ul class="actions special">
+                <li>
+                <a
+                    href="/upcoming_events"
+                    class="button primary"
+                    >More</a
+                >
+                </li>
+            </ul>
+        {% else %}
+            <ul class="actions special">
+                <li>
+                <a
+                    href="https://www.eventbrite.ie/o/galway-it-115249290071"
+                    class="button primary"
+                    >Eventbrite</a
+                >
+                </li>
+                <li>
+                <a
+                    href="https://www.meetup.com/galway-information-technology/events/"
+                    class="button primary"
+                    >Meetup</a
+                >
+                </li>
+            </ul>
+        {% endif %}
         </section>
     </div>
     <div class="slider">
