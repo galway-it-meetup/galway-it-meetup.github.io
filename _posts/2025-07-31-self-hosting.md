@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "GIT 2.4: Self Hosting"
+number: 2.4
+title:  "Self Hosting"
 date:   2025-07-31 18:30:00 +0100
 categories: past_events
 tags: [past-events, open-source, self-hosted, docker]
