@@ -23,7 +23,7 @@ permalink: /speaker-guidelines/
 
 ### Maybes
 
-* Surveys - we ask that you check in with us before including surveys as part of your talk. We aalso ask that you avoid the collection of personal details, and that any information gathered be used for research purposes only.
+* Surveys - we ask that you check in with us before including surveys as part of your talk. We also ask that you avoid the collection of personal details, and that any information gathered be used for research purposes only.
 
 ### What We Expect
 * We ask that you share your slides and demo code at least 24 hours before the meet-up. This allows us time to add it to our website and to confirm everything fits within these guidelines. 
