@@ -1,3 +1,9 @@
+---
+layout: default
+title: Linux Install Event
+permalink: /linux/
+---
+
 # Before the Linux Install Event
 
 Make sure you've done the following before you come along:
