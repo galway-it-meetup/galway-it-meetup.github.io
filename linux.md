@@ -32,7 +32,7 @@ Otherwise, export your saved passwords from your browser:
 You'll need your home Wi-Fi network name and password to get back online after the install. It's usually on a sticker on your router.
 
 ## Think About the Software You Use
-Make a note of any programs you rely on day-to-day — things like Microsoft Office, Zoom, Spotify, or anything work-related. Bring the list along and we'll help find Linux alternatives on the day.
+Make a note of any programs you rely on day-to-day — things like Microsoft Office, Zoom, Spotify, or anything work-related. Bring the list along and we'll help you get set up, or if necessary, we'll help find Linux alternatives on the day.
 
 ---
 
