@@ -12,12 +12,10 @@ layout: index
         {%- assign _past_events = site.posts | where: 'categories', 'past_events' -%}
         {%- assign _most_recent = _past_events.first -%}
 
-        <a href="{{_most_recent.url}}">
-            Most Recent:
+        <a href="{{_most_recent.url}}"> 
             <b>
                 {{_most_recent.date  | date: "%B %d, %Y" }}
-            </b>
-            <br/>
+            </b> : 
             <b>
                 {{_most_recent.title}}
             </b>
@@ -37,18 +35,26 @@ layout: index
         <h1>Upcoming Events</h1>
         {%- assign _upcoming_events = site.posts | where: 'categories', 'upcoming_events' -%}
         {%- assign _soonest = _upcoming_events.first -%}
+        
         {% if _soonest%}
             
-            <a href="{{_soonest.url}}">
-                Next event:
-                <b>
-                    {{_soonest.date  | date: "%B %d, %Y" }}
-                </b>
+            {% for post in site.posts %}
+            {% if post.tags contains 'upcoming-events' %}
+
+                <a href="{{post.url}}">
+                    <b>
+                        {{post.date  | date: "%B %d, %Y" }} : 
+                    </b>
+                    <b>
+                        {{post.title}}
+                    </b>
+                </a>
+                <br/>    
                 <br/>
-                <b>
-                    {{_soonest.title}}
-                </b>
-            </a>
+            {% endif %}
+            {% endfor %}
+            
+            <br/> 
             <ul class="actions special">
                 <li>
                 <a
