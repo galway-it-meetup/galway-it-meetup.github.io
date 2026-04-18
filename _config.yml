@@ -37,7 +37,7 @@ collections:
 remote_theme: jekyll/minima
 plugins:
   - jekyll-seo-tag
-  # - jekyll-feed
+  - jekyll-feed
   - jekyll-remote-theme
 
 # include posts with a future date
