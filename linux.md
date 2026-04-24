@@ -1,15 +1,25 @@
 ---
-layout: default
-title: Linux Install Event
+layout: large
+title: Linux Install Guide
 permalink: /linux/
 ---
 
-# Before the Linux Install Event
+# Repair Cafe
 
-Make sure you've done the following before you come along:
+Starting March 2026, Galway IT is joining the [Galway Repair Cafe](https://upsew.ie/repair-cafe/) to help people get their unsupported Windows 10 laptops working with Linux (specifically [Linux Mint](https://linuxmint.com/))!
+
+If you'd like to update your laptop to Linux, make sure to book a slot on the Repair Cafe Eventbrite. Otherwise we may not have the time to help you.
+
+You are of course welcome to come along, have a look and try out Linux before commiting to making the change on your own device. Once you are ready to take the plunge, have a read over the steps below to be ready for Linux!
+
+
+
+## Getting prepared
+
+Make sure you've done the following before you come along to convert your laptop to Linux:
 
 ## Back Up Your Files
-Copy everything you want to keep — documents, photos, music, downloads — to an external hard drive or USB stick. **Installing Linux will wipe your drive, so this is essential.** The simplest way is to plug in your drive and drag and drop your important folders across in File Explorer. Do it twice if you're unsure.
+Copy everything you want to keep — documents, photos, music, downloads — to an external hard drive or USB stick. **Installing Linux will wipe your drive, so this is essential.** The simplest way is to plug in your external drive and drag and drop your important folders across in File Explorer. Do it twice if you're unsure.
 
 As an extra safety net, check whether you already have files synced to Google Drive, OneDrive or iCloud — many people do without realising it.
 
@@ -19,6 +29,8 @@ Unsure about how to back things up? Feel free to come along and ask us, or visit
 Export your bookmarks before you arrive so you don't lose them:
 - **Chrome / Edge:** Menu → Bookmarks → Export Bookmarks
 - **Firefox:** Menu → Bookmarks → Manage Bookmarks → Import and Backup → Export
+
+Copy the exported file to an external drive.
 
 ## Back Up Your Passwords
 If you use a password manager like Bitwarden, 1Password, or LastPass, your passwords are already safe and you don't need to do anything.
